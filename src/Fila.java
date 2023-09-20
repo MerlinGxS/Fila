@@ -13,7 +13,7 @@ public class Fila {
 
     public static Fila  getInstance(){
         if (instancia==null){
-            instancia=Fila;
+            instancia = newFila();
         }
         return instancia;
     }
