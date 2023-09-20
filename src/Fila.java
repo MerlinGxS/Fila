@@ -1,5 +1,7 @@
 public class Fila {
-    private Fila;
+    private Fila(){
+        
+    }
     private static Fila instancia=null;
     public void ImprimeDocumento(){
 
